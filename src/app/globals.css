@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.qu_form-label{
+    font-size : 1.3rem;
+    border-left : 3px double rgba(100,130,200,0.7) ;
+    padding-left  : 3px;
+    text-transform: capitalize;
+    color : rgba(100,100,100,0.7);
+    letter-spacing: 2.4px;
+}
+
+.qu_form-input{
+    
+    width: 100%;
+    height: 5vh;
+    padding-left: 20px;
+    color : #4b5563;
+    border : 2px solid #cbd5e1;
+    border-radius: 0.5rem;
+}
+
+.qu_form-input:hover {
+    border-color: rgba(100,130,200,0.7);
+    transition: 300ms ease-in-out;
+}
+.qu_form-input:focus {
+    outline : none !important;
+    border-color: rgba(45, 101, 231, 0.7);
+}
