@@ -39,6 +39,8 @@ const config: Config = {
           700 : '#998122',
           800 : '#665617',
         },
+        'cl_border' : '#4b5563',
+        'cl_border-hover' : 'rgba(100,130,200,0.7)',
       },
     },
   },

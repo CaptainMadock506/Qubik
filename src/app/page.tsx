@@ -1,7 +1,7 @@
 
-import Welcome from '@/client/pages/Welcome'
+import {Welcome} from '@/client/page' ; 
 
-export default function Main() {
+export default function AppRoute() {
   return (
     <Welcome/>
   );
