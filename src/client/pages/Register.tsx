@@ -19,7 +19,7 @@ const Register: FC = () => {
             <span className="text-[2.1rem] flex justify-center items-center text-gray-400">Sign up</span>
             <div className="flex justify-center space-x-1">
                 <span className='text-gray-700'>Already an existing user?</span>
-                <Link href='' className="text-qu_purple-400 hover:text-qu_purple-500">Sign In</Link>
+                <Link href='/login' className="text-qu_purple-400 hover:text-qu_purple-500">Sign In</Link>
             </div>
             <form className="w-[55%] my-8 mx-auto border-2 border-gray-300 rounded-md bg-gray-100 flex flex-col justify-start space-y-3 p-5">
                 <div className="flex flex-col space-y-3">

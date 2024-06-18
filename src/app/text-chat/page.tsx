@@ -1,8 +1,8 @@
-import {Login} from '@/client/page' ; 
+import {TextChat} from '@/client/page' ; 
 
 const LoginRoute = () => {
     return (
-       <Login/>
+       <TextChat/>
     )
 }
 

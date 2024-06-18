@@ -17,7 +17,7 @@ const Login: FC = () => {
             <span className="text-[2.1rem] flex justify-center items-center text-gray-400">Sign In</span>
             <div className="flex justify-center space-x-1">
                 <span className='text-gray-700'>Not on Qubik yet?</span>
-                <Link href='' className="text-qu_purple-400 hover:text-qu_purple-500">Sign Up</Link>
+                <Link href='/register' className="text-qu_purple-400 hover:text-qu_purple-500">Sign Up</Link>
             </div>
             <form className="w-[55%] my-8 mx-auto border-2 border-gray-300 rounded-md bg-gray-100 flex flex-col justify-start space-y-3 p-5">
                 <Input id="username" type="text" value={username} setState={setUsername} />
